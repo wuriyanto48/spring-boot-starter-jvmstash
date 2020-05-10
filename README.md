@@ -1,4 +1,4 @@
-## Spring Boot Starter JVM Stash
+## Spring Boot Starter JVM Stash (Logstash Client Library for Spring Boot)
 
 https://github.com/wuriyanto48/jvm-stash for Spring Boot.
 
