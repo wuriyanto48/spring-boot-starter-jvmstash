@@ -22,6 +22,10 @@ public class StashTemplate {
         this.stashContainer = stashContainer;
     }
 
+    public Stash getStash() {
+        return this.stashContainer.getStash();
+    }
+
     public void write(int b) throws IOException {
         this.stashContainer.getStash().write(b);
     }
