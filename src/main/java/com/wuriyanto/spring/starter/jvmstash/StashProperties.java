@@ -1,9 +1,9 @@
 package com.wuriyanto.spring.starter.jvmstash;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.core.io.ClassPathResource;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 
 @ConfigurationProperties(prefix = "stash")
@@ -42,8 +42,8 @@ public class StashProperties implements Cloneable {
         if (keyStorePath != null) {
             InputStream keyStore = null;
             try {
-                keyStore = new FileInputStream(keyStorePath);
-            } catch (FileNotFoundException e) {
+                keyStore = new ClassPathResource(keyStorePath).getInputStream();
+            } catch (IOException e) {
                 e.printStackTrace();
             }
             builder.setKeyStoreIs(keyStore);
