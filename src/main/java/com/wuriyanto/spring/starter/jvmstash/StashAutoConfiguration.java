@@ -21,6 +21,8 @@ public class StashAutoConfiguration {
         return new StashContainer(stashProperties);
     }
 
+    @Bean
+    @ConditionalOnMissingBean
     public StashTemplate stashTemplate() {
         return new StashTemplate();
     }
