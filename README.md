@@ -1,3 +1,3 @@
 ## Spring Boot Starter JVM Stash
 
-Logstash Client for Java Virtual Machine as Spring Boot Starter
+https://github.com/wuriyanto48/jvm-stash for Spring Boot.
