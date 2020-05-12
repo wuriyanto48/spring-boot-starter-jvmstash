@@ -1,5 +1,6 @@
 package com.wuriyanto.spring.starter.jvmstash;
 
+import com.wuriyanto.jvmstash.Stash;
 import org.springframework.util.Assert;
 
 import javax.annotation.Resource;

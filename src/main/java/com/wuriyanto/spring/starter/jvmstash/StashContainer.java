@@ -1,5 +1,7 @@
 package com.wuriyanto.spring.starter.jvmstash;
 
+import com.wuriyanto.jvmstash.Stash;
+import com.wuriyanto.jvmstash.StashException;
 import org.springframework.context.SmartLifecycle;
 
 import java.io.IOException;

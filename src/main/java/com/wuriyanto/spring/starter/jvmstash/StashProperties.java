@@ -1,5 +1,7 @@
 package com.wuriyanto.spring.starter.jvmstash;
 
+import com.wuriyanto.jvmstash.Constant;
+import com.wuriyanto.jvmstash.Stash;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.core.io.ClassPathResource;
 
